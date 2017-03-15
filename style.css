@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.marquee{
+    background-color: #e19df2;
+    padding: 20px;
+    height:150px;
+    font-family:"courier";
+    font-size: 100px;
+
+}
+div.background {
+  background: url(lilac.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 30px
+}
+
+#ed {
+    background-image: url(education.jpg);
+    width:350px;
+    height:300px;
+}
+
+#ed:hover {
+  background-image: url(eduwritten.jpg);
+  width: 350px;
+  height: 150px;
+  background-repeat: none;
+}
+
+#ss {
+    background-image: url(ss.jpg);
+    width:350px;
+    height:300px;
+    float:left;
+}
+
+#pro {
+    background-image: url(project.jpg);
+    
+    float: left;
+}
+
+#work {
+    background-image: url(certi.jpg);
+    
+}
+
+#int {
+    background-image: url(interest.jpg);
+    width:350px;
+    height:300px;
+}
+
+.inline{
+  display: inline-block;
+}
